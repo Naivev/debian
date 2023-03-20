@@ -6,7 +6,7 @@ read -p "请设置RTT测试进程数(默认20,最大100):" tasknum
 read -p "是否需要测速[(默认1.是)0.否]:" mode
 if [ -z "$filename" ]
 then
-	filename=ip.txt
+	filename=https://raw.githubusercontent.com/wukibaka/CF-Ali-IP/master/ip.txt
 fi
 if [ -z "$port" ]
 then
